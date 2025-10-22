@@ -1,6 +1,7 @@
 import 'package:ecommercewithfirebase/pages/food/popular_food_detail.dart';
 import 'package:ecommercewithfirebase/pages/food/recommended_food_detail.dart';
 import 'package:ecommercewithfirebase/pages/home/food_page_body.dart';
+import 'package:ecommercewithfirebase/pages/home/main_food_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: FoodPageBody(),
+      home: RecommendedFoodDetail(),
     );
   }
 }

@@ -101,8 +101,8 @@ class _FoodPageBodyState extends State<FoodPageBody> {
           //list of food and images
           Expanded(
             child: ListView.builder(
-                physics: NeverScrollableScrollPhysics(),
-                 shrinkWrap: true,
+               // physics: NeverScrollableScrollPhysics(),
+                // shrinkWrap: true,
                 itemCount: 10,
                 itemBuilder: (context, index) {
                   return Container(
